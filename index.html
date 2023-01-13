@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- custom style sheets-->
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article class="block">
+        <img
+          class="block__image"
+          src="./images/illustration-hero.svg"
+          alt="a person listening to music"
+        />
+        <div class="block__order__summary">
+          <h2 class="block__title">Order Summary</h2>
+          <p class="block__desc">
+            You can now listen to millions of songs, audiobooks, and podcst on
+            any device anywhere you like!
+          </p>
+          <div class="block__plan__option">
+            <div class="annual__plan">
+              <img src="./images/icon-music.svg" alt="Music icon" />
+              <div class="plan__chosen">
+                <p>Annual Plan</p>
+                <p class="plan__price">$59.99/year</p>
+              </div>
+            </div>
+            <a href="#">Change</a>
+          </div>
+          <button class="btn-blue">Proceed to Payment</button>
+          <button class="btn-clear">Cancel Order</button>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
